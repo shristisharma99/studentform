@@ -1,0 +1,31 @@
+
+body{
+	background: url('https://wallpapercave.com/wp/wp1838738.jpg');
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-size: cover;
+}
+table, th, td {
+  border: 5px solid powderblue;
+  padding: 15px;
+  border-spacing: 5px;
+	
+  
+}
+caption{
+	font-size: 100%;
+	background-color: powderblue;
+}
+#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+#t01 tr:nth-child(odd) {
+ background-color: #a0a0a0;
+}
+#t01 th {
+  background-color: black;
+  color: white;
+}
+form{
+    background-color: powderblue; 
+}

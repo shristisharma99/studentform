@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="srfstyle.css">
+<title>Student Registration System</title>
+</head>
+<body>
+<h1 style="background-color:powderblue;text-align:center;">STUDENT REGISTRATION</h1>
+<table style="width:100%"; id="t01">
+<caption>Student Data</caption>
+  <tr>
+    <th>Name</th>
+    <th>Gender</th>
+    <th>Age</th>
+    <th>Stream</th>	
+  </tr>
+  <tr>
+    <td>Ray</td>
+    <td>Male</td>
+    <td>17</td>
+    <td>Science</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Female</td>
+    <td>17</td>
+    <td>Commerce</td>
+  </tr>
+</table>
+<form action="\thankyou.html">
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" required><br>
+  <label for="age">Age:</label><br>
+  <input type="text" id="age" name="age" required><br>
+  <input type="radio" id="male" name="gender" value="male" required>
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female" required>
+  <label for="female">Female</label><br>
+  <label for="stream">Stream:</label><br>
+  <input type="text" id="stream" name="stream" required><br>
+  <input type="submit" value="Submit">
+  
+</form>
+<h3 style="background-color:rgba(255, 99, 71, 0.8);text-align:left;">NOTE:</h3>
+<ol style="background-color:rgba(255, 99, 71, 0.8);">
+  <li>Make sure the details are correct. </li>
+  <li>The credentials cannot be changed once submitted. </li>
+  <li>To see changes refresh page</li>
+</ol>
+</body>
+</html>
